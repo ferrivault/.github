@@ -6,7 +6,7 @@
 
 ## 🛡️ Overview
 
-**FerriVault** is an independent open-source project focused on building a lightweight, native, and cryptographically strict desktop experience for **Bitwarden** (`bitwarden.com`, `bitwarden.eu`) and self-hosted **Vaultwarden** servers.
+**FerriVault** is an open-source project focused on building a lightweight, native, and cryptographically strict desktop experience for **Bitwarden** (`bitwarden.com`, `bitwarden.eu`) and self-hosted **Vaultwarden** servers.
 
 Unlike traditional Electron-based password managers that bundle an entire Chromium instance and perform cryptographic operations in JavaScript, FerriVault isolates all key derivation, encryption, decryption, TOTP generation, and clipboard hygiene inside a native **Rust** backend.
 
@@ -22,12 +22,13 @@ Unlike traditional Electron-based password managers that bundle an entire Chromi
 
 ## 📦 Repositories
 
-| Repository | Description | Stack |
-| :--- | :--- | :--- |
-| **[ferrivault](https://github.com/ferrivault/ferrivault)** | Main cross-platform desktop application for Linux, macOS, and Windows | Rust, Tauri v2, React, TypeScript, TailwindCSS |
+| Repository | Description | License | Stack |
+| :--- | :--- | :--- | :--- |
+| **[ferrivault](https://github.com/ferrivault/ferrivault)** | Main cross-platform desktop application for Linux, macOS, and Windows | `GPL-3.0` | Rust, Tauri v2, React, TypeScript, TailwindCSS |
 
 ---
 
-## 🤝 Contributing & Translations
+## ⚖️ License
 
-We welcome bug reports, security audits, feature requests, and new language translations! Check out the main repository's `README.md` and `doc/` directory to get started.
+All projects in this organization are free and open-source software licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+Copyright © 2026 Victor Guardiola.
